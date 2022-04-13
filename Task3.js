@@ -1,14 +1,13 @@
-const printPiramida = 5;
-for (i = 0; i <= printPiramida; i++) {
-  let segitiga = "";
-  for (j = 1; j <= printPiramida - i; j++) {
-    // segitiga += j;
-    segitiga += j;
+const printSegitiga = 5;
+if (typeof printSegitiga == "number") {
+  for (i = 0; i <= printSegitiga; i++) {
+    let segitiga = "";
+    for (j = 1; j <= printSegitiga - i; j++) {
+      // segitiga += j;
+      segitiga += j;
+    }
+    console.log(segitiga);
   }
-  console.log(segitiga);
+} else {
+  console.log("data harus number");
 }
-
-const printSegitiga = 23;
-typeof printSegitiga === "string"
-  ? console.log("data harus number")
-  : console.log("data number");
