@@ -4,25 +4,25 @@ const bhs_indo = 90;
 const bahasaInggris = 100;
 
 if (ipa != "" && mtk != "" && bhs_indo != "" && bahasaInggris != "") {
-  let students = [ipa, mtk, bhs_indo, bahasaInggris];
-  let Avgmarks = 0;
-  let count = students.length;
+  let mapel = [ipa, mtk, bhs_indo, bahasaInggris];
+  let Avg = 0;
+  let count = mapel.length;
 
   for (let i = 0; i < count; i++) {
-    Avgmarks += students[i];
+    Avg += mapel[i];
   }
-  console.log(`nilai rata-rata adalah : ${Avgmarks / count}`);
+  console.log(`nilai rata-rata adalah : ${Avg / count}`);
 
-  let avg = Avgmarks / count;
-  if (avg <= 59) {
+  let nilai = Avg / count;
+  if (nilai <= 59) {
     console.log("Grade : E");
-  } else if (avg <= 69) {
+  } else if (nilai <= 69) {
     console.log("Grade : D");
-  } else if (avg <= 79) {
+  } else if (nilai <= 79) {
     console.log("Grade : C");
-  } else if (avg <= 89) {
+  } else if (nilai <= 89) {
     console.log("Grade : B");
-  } else if (avg <= 100) {
+  } else if (nilai <= 100) {
     console.log("Grade : A");
   }
 } else {
