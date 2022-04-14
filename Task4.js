@@ -15,7 +15,7 @@ let data = {
 let ubah = {
   name: "wahyu dwi purwanto",
   email: "wahyu@gmail.com",
-  hobby: "sepak bola",
+  hobby: ["sepak bola", "badminton","healing"],
 };
 const gabung = {
   ...data,

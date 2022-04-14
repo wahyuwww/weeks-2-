@@ -8,33 +8,30 @@ const biodata = {
       name: "smp n 10 prob",
       yearIn: 2011,
       yearOut: 2014,
-      major: "prob",
     },
     {
       name: "sma assaadah gresik",
       yearIn: 2014,
       yearOut: 2017,
-      major: "Bungah",
     },
     {
       name: "universitas muhammadiyah malang",
       yearIn: 2017,
       yearOut: 2021,
-      major: "umm",
     },
   ],
   skills: [
     {
-      skillName: "futsal",
+      skillName: "fotografi",
       level: "beginner",
     },
     {
       skillName: "sepak bola",
-      level: "advanced",
+      level: "beginner",
     },
     {
-      skillName: "bulu tangkis",
-      level: "expert",
+      skillName: "badminton",
+      level: "advanced",
     },
   ],
   interestInCoding: true,
