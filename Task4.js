@@ -12,14 +12,14 @@ let data = {
   phone: "1-770-736-8031 x56442",
   website: "hildegard.org",
 };
-let ubah = {
+let data2 = {
   name: "wahyu dwi purwanto",
   email: "wahyu@gmail.com",
   hobby: ["sepak bola", "badminton","healing"],
 };
 const gabung = {
   ...data,
-  ...ubah,
+  ...data2,
 };
 console.log(gabung);
 

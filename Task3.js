@@ -1,4 +1,4 @@
-const printSegitiga = "";
+const printSegitiga = 8;
 if (typeof printSegitiga === "number") {
   for (i = 0; i <= printSegitiga; i++) {
     let segitiga = "";
