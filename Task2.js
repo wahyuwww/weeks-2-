@@ -1,9 +1,9 @@
-const ipa = 90;
-const mtk = 100;
-const bhs_indo = 100;
-const bahasaInggris = 90;
+const ipa =80;
+const mtk = 80;
+const bhs_indo =80;
+const bahasaInggris = 80;
 
-if (ipa === "" || mtk === "" || bhs_indo === "" || bahasaInggris === "")  {
+if (typeof ipa !== "number" || typeof mtk !== "number" || typeof bhs_indo !== "number" || typeof bahasaInggris !== "number")  {
   console.log(" isi data dengan benar");
 } else {
   let mapel = [ipa, mtk, bhs_indo, bahasaInggris];
