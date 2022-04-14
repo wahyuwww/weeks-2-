@@ -1,9 +1,11 @@
 const ipa = 90;
 const mtk = 100;
 const bhs_indo = 100;
-const bahasaInggris = null;
+const bahasaInggris = 90;
 
-if (ipa && mtk && bhs_indo && bahasaInggris) {
+if (ipa === "" || mtk === "" || bhs_indo === "" || bahasaInggris === "")  {
+  console.log(" isi data dengan benar");
+} else {
   let mapel = [ipa, mtk, bhs_indo, bahasaInggris];
   let Avg = 0;
   let count = mapel.length;
@@ -19,18 +21,4 @@ if (ipa && mtk && bhs_indo && bahasaInggris) {
   else if (nilai >= 70) console.log("Grade : C");
   else if (nilai >= 60) console.log("Grade : D");
   else if (nilai >= 0) console.log("Grade : E");
- 
-} else if ( ipa === "" || mtk === "" || bhs_indo === "" || bahasaInggris === ""
-) {
-  console.log(" isi data dengan benar");
-} else if (
-  typeof ipa === "string" ||
-  typeof mtk === "string" ||
-  typeof bhs_indo === "string" ||
-  typeof bahasaInggris === "string"
-) {
- 
-  console.log("data harus number");
-} else {
-  console.log("data kosong");
 }
