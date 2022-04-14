@@ -1,5 +1,5 @@
 const printSegitiga = "";
-if (typeof printSegitiga == "number") {
+if (typeof printSegitiga === "number") {
   for (i = 0; i <= printSegitiga; i++) {
     let segitiga = "";
     for (j = 1; j <= printSegitiga - i; j++) {
