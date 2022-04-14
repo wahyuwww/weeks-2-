@@ -1,15 +1,10 @@
 const ipa = 80;
 const mtk = 100;
-const bhs_indo = 90;
+const bhs_indo = "";
 const bahasaInggris = 90;
 
-if (
-  typeof ipa == "string" ||
-  typeof mtk == "string" ||
-  typeof bhs_indo == "string" ||
-  typeof bahasaInggris == "string"
-) {
-  console.log("Upsss tolong masukan data dengan benar");
+if (ipa === "" || mtk === "" || bhs_indo === "" || bahasaInggris === "") {
+  console.log("tolong isi data dengan benar");
 } else {
   let mapel = [ipa, mtk, bhs_indo, bahasaInggris];
   let Avg = 0;
